@@ -1,0 +1,25 @@
+{
+    "name": "efremovp/simple-curl",
+    "description": "Simple cURL client.",
+    "type": "library",
+    "keywords": ["php","curl","simple","library"],
+    "license": "MIT",
+    "homepage": "https://github.com/efremovP/simple-curl",
+    "authors": [
+        {
+            "name": "Peter Efremov",
+            "email": "peter.efremov@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "efremovP\\curl\\": "src"
+        }
+    }
+}
