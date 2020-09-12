@@ -4,19 +4,19 @@ namespace efremovP\curl;
 
 /**
  *
- * Функции для работы с curl
+ *  class work with cURL
  *
- * @author Ефремов Петр
+ * @author Efremov Petr
  * @since 2.0
  */
 class Curl
 {
     /**
-     * отправляем запрос по curl
+     * send request through cURL
      * @param string $url
-     * @param array $headers - заголовки
-     * @param array $params - необходимые параметры(посылаемые методом POST)
-     * @param string $method - метод отправки запроса
+     * @param array $headers - headers list
+     * @param array $params - params list(send in method POST)
+     * @param string $method - method send request
      * @return string
      */
     public static function send($url, $headers, $params = null, $method = 'post')

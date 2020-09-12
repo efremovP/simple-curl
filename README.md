@@ -30,7 +30,7 @@ Once the extension is installed, simply use it in your code by  :
 ```php
 use efremovP\curl\Curl;
 
-//пример отправки post запроса, с пустыми заголовками
+//example send POST request with empty headers
 $url = 'https://api.example.com/login/';
 
 $params = [
@@ -40,7 +40,7 @@ $params = [
 ];
 $result = Curl::send($url, [], $params);
 
-//пример отправки post запроса,c дополнительным заголовком
+//example send POST request with header
 $url = 'https://api.example.com/login/'
 
 $header = ['Authorization: Bearer sfq324fszdfasdf123456'];
@@ -52,7 +52,7 @@ $params = [
 
 $result = Curl::send($url, $header, $params);
 
-//пример отправки get запроса
+//example send GET request
 $url = 'https://api.example.com/get/'
 
 $result = Curl::send($url, [], null, 'get');
